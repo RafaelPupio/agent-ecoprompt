@@ -31,8 +31,8 @@ tools need to be told where to stop; plain chat needs to be told where it is.
 ## Install — Option A: Claude Code skill (recommended)
 
 ```bash
-git clone https://github.com/RafaelPupio/Agents
-./Agents/ecoprompt/install.sh ~
+git clone https://github.com/RafaelPupio/agent-ecoprompt
+./agent-ecoprompt/install.sh ~
 ```
 
 Installing to `~` puts it in `~/.claude/skills/`, where Claude Code reads
@@ -54,8 +54,8 @@ and run:
 
 ```bash
 mkdir -p .claude/skills/ecoprompt/references
-cp Agents/ecoprompt/skill/SKILL.md .claude/skills/ecoprompt/
-cp Agents/ecoprompt/system-prompt.md Agents/ecoprompt/knowledge/*.md \
+cp agent-ecoprompt/skill/SKILL.md .claude/skills/ecoprompt/
+cp agent-ecoprompt/system-prompt.md agent-ecoprompt/knowledge/*.md \
    .claude/skills/ecoprompt/references/
 ```
 
