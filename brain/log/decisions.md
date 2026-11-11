@@ -10,3 +10,4 @@
 - 2026-09-02 — Published public at github.com/RafaelPupio/Agents. Install path verified end to end from the real URL before declaring it done; a broken install is the first thing a visitor hits and fails invisibly for the author.
 - 2026-09-03 — Recommended install is user-level (`install.sh ~` → `~/.claude/skills/`), not per-project. One copy serves every project, with no per-repo files to gitignore and no drift. Per-project install kept for teams that want it committed.
 - 2026-09-29 — Compose gained a short form (Goal, Non-goals, Done when) for tasks smaller than the full template. Found by testing Compose on a real repo task: the brief came out longer than the edit it described, which "what you never do" forbids while the output section offered no way to comply.
+- 2026-11-11 — Repository made public by the owner.
